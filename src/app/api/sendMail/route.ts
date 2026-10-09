@@ -60,7 +60,7 @@ export async function POST(req: NextRequest) {
     // 5. COMPANY DETAILS
     // ==============================
     const companyName = "RTV News Network";
-    const companyEmail = "tech@rtvnewsnetwork.com";
+    const companyEmail = "tech@rtv.ai";
     const companyAddress =
       "8-2, 8-2-293/82/839, Rd Number 44, CBI Colony, Jubilee Hills, Hyderabad, Telangana – 500033";
 

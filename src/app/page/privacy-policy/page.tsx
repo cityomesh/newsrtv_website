@@ -24,7 +24,7 @@ const PolicyPage: React.FC = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gray-50 text-gray-800 font-sans pt-24 md:pt-28">
+    <div className="min-h-screen bg-gray-50 text-gray-800 font-sans pt-24 md:pt-28 mt-[2rem]">
 
       {/* =========================================================
           HEADER (Integrated)
@@ -294,8 +294,8 @@ const PolicyPage: React.FC = () => {
               If you have any questions about this Privacy Policy, please contact us:
             </p>
             <div className="flex flex-col gap-3 text-blue-700 font-medium">
-              <a href="mailto:tech@rtvnewsnetwork.com" className="hover:underline flex items-center gap-2">
-                📧 tech@rtvnewsnetwork.com
+              <a href="mailto:tech@rtv.ai" className="hover:underline flex items-center gap-2">
+                📧 tech@rtv.ai
               </a>
               <a href="https://www.rtvlive.com" target="_blank" rel="noopener noreferrer" className="hover:underline flex items-center gap-2">
                 🌐 www.rtvlive.com

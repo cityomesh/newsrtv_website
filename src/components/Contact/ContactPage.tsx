@@ -260,16 +260,6 @@ export default function ContactPage() {
                     required
                   />
                 </div>
-
-                {/* CAPTCHA PLACEHOLDER */}
-                <div className="bg-gray-50 border border-gray-200 rounded-xl p-4 flex items-center gap-3">
-                  <div className="w-6 h-6 rounded border-2 border-gray-300 bg-white flex items-center justify-center cursor-pointer hover:border-blue-500">
-                  </div>
-                  <span className="text-sm text-gray-600 font-medium">
-                    Please prove you are human by selecting the house.
-                  </span>
-                </div>
-
                 {/* SUBMIT BUTTON */}
                 <button
                   type="submit"
@@ -334,18 +324,21 @@ export default function ContactPage() {
       {/* =========================================================
           FOOTER 
       ========================================================= */}
-      <footer className="border-t border-gray-300 mt-12 py-6 bg-gray-50">
-        <div className="max-w-[1100px] mx-auto px-4 md:px-6 text-sm text-gray-600 flex flex-wrap gap-2 items-center justify-center md:justify-start">
-          <span>© 2023 RTV News Network. All Rights Reserved.</span>
-          
-          <span className="text-gray-400 hidden md:inline">|</span>
-          
-          <Link 
-            href="/page/privacy-policy" 
-            className="text-blue-600 bg-blue-50 hover:bg-blue-100 hover:text-blue-800 font-semibold px-2 py-1 rounded transition-colors"
-          >
-            Privacy Policy
-          </Link>
+     {/* ═══════════ FOOTER ═══════════ */}
+      <footer className="border-t border-blue-800 bg-gradient-to-r from-blue-700 to-blue-900">
+        <div className="max-w-6xl mx-auto px-5 md:px-8 py-3">
+          <div className="flex flex-row flex-wrap items-center justify-center gap-3 text-center">
+            <span className="text-xs md:text-sm text-white">
+              © 2023 RTV News Network. All Rights Reserved.
+            </span>
+
+            <Link
+              href="/page/privacy-policy"
+              className="text-xs md:text-sm font-bold text-white bg-red-600 hover:bg-blue-600 px-3 py-1.5 rounded-md shadow-sm hover:shadow-md transition-all duration-300"
+            >
+              Privacy Policy
+            </Link>
+          </div>
         </div>
       </footer>
     </main>
