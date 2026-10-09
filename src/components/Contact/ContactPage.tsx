@@ -136,7 +136,7 @@ export default function ContactPage() {
 
                 {/* EMAIL */}
                 <a
-                  href="mailto:digital@rtvnewsnetwork.com"
+                  href="mailto:tech@rtv.ai"
                   className="group block rounded-2xl border border-white/10 bg-white/[0.06] p-5 hover:bg-white/[0.1] transition"
                 >
                   <div className="flex items-center gap-4">
@@ -148,7 +148,7 @@ export default function ContactPage() {
                         Email:
                       </p>
                       <p className="mt-1 text-sm font-semibold break-all">
-                        digital@rtvnewsnetwork.com
+                        tech@rtv.ai
                       </p>
                     </div>
                   </div>
